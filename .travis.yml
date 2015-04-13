@@ -9,4 +9,6 @@ deploy:
   on:
     repo: fjab76/herokuWebApp
 
+script: mvn clean package heroku:deploy-war
+
 
