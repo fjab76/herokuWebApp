@@ -4,11 +4,9 @@ jdk:
 deploy:
   provider: heroku
   api_key:
-    secure: VyeV1ttktSRQG/kJ19RKb4/IPEhPoQ55JxxX9j+41M+FQEog0YomYUam6Lu4JbD8/5exuZhqiBlsJs6wZtoQUIc1/A++i6wjJ8nkX13RB5hoa5mbHaSB7F5eGYqOKIopIfgPv3+m2zr5jSN/jQvPYG4U1eojHLmbqZxqUNeBE90=
+    secure: LU92awm4y9bKoPdib+f2f30JdNE1+OHPYM2SSHw6ntfU6O+cWRDtdub2f9N8n2alZHxhdH+sOsmDdjGWppLoRO7grJkiS5HZULb9kDYiMv6xkPEM653Ld7Yh1AXakVA+dQynZtV4Zld6qU8kCpSH2z4roa2+DZ69t75ZvMXs1jg=
   app: heroku-web-app-template
   on:
     repo: fjab76/herokuWebApp
 
 script: mvn clean package heroku:deploy-war
-
-
