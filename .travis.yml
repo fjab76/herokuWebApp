@@ -5,7 +5,7 @@ deploy:
   provider: heroku
   api_key:
     secure: VyeV1ttktSRQG/kJ19RKb4/IPEhPoQ55JxxX9j+41M+FQEog0YomYUam6Lu4JbD8/5exuZhqiBlsJs6wZtoQUIc1/A++i6wjJ8nkX13RB5hoa5mbHaSB7F5eGYqOKIopIfgPv3+m2zr5jSN/jQvPYG4U1eojHLmbqZxqUNeBE90=
-  app: herokuWebApp
+  app: heroku-web-app-template
   on:
     repo: fjab76/herokuWebApp
 
