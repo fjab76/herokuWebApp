@@ -4,11 +4,11 @@ jdk:
 script: mvn clean package heroku:deploy-war
 env:
   global:
-  - secure: I/6y3N9GM/f2z8V6/NPbrdoNxfDKsNCl5LSsAf2i93RQQ/gefFanCOipU2UhmXh9uhFrfMQLe56tEIiBg+QKGwynwrCgwrt1sZ6wIWT6AxU2RUXmtWcFK41ZF/4sO+b3iERB19/DfyZXxlCki1o+klQwoww8dgWBYGCLVGG9kNk=
+  - secure: HrBmRUNdUwlV3Siylomhqb2/zwPdfFeYV2HRSjkZoiyh9tB8AWUM9Ml0vfUm8U1T6+Em0JyW6FirVv6hknNyhPrZKzoVez/rvpqPoVVMYJAjdPf6+SZk/B/XZOadUqbMubW7sdPeGVI9Ns9Gf1MTU0uVFqSd9Y86JMh2EcY7Wvk=
 deploy:
   provider: heroku
-  api_key:
-    secure: I/6y3N9GM/f2z8V6/NPbrdoNxfDKsNCl5LSsAf2i93RQQ/gefFanCOipU2UhmXh9uhFrfMQLe56tEIiBg+QKGwynwrCgwrt1sZ6wIWT6AxU2RUXmtWcFK41ZF/4sO+b3iERB19/DfyZXxlCki1o+klQwoww8dgWBYGCLVGG9kNk=
+  HEROKU_API_KEY:
+    secure: HrBmRUNdUwlV3Siylomhqb2/zwPdfFeYV2HRSjkZoiyh9tB8AWUM9Ml0vfUm8U1T6+Em0JyW6FirVv6hknNyhPrZKzoVez/rvpqPoVVMYJAjdPf6+SZk/B/XZOadUqbMubW7sdPeGVI9Ns9Gf1MTU0uVFqSd9Y86JMh2EcY7Wvk=
   app: my-webapp-template
   on:
     repo: fjab76/herokuWebApp
