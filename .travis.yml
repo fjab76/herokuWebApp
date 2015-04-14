@@ -2,6 +2,9 @@ language: java
 jdk:
 - oraclejdk8
 script: mvn clean package heroku:deploy-war
+env:
+  global:
+  - secure: I/6y3N9GM/f2z8V6/NPbrdoNxfDKsNCl5LSsAf2i93RQQ/gefFanCOipU2UhmXh9uhFrfMQLe56tEIiBg+QKGwynwrCgwrt1sZ6wIWT6AxU2RUXmtWcFK41ZF/4sO+b3iERB19/DfyZXxlCki1o+klQwoww8dgWBYGCLVGG9kNk=
 deploy:
   provider: heroku
   api_key:
@@ -9,3 +12,4 @@ deploy:
   app: my-webapp-template
   on:
     repo: fjab76/herokuWebApp
+
