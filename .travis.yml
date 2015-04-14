@@ -7,8 +7,7 @@ env:
   - secure: HrBmRUNdUwlV3Siylomhqb2/zwPdfFeYV2HRSjkZoiyh9tB8AWUM9Ml0vfUm8U1T6+Em0JyW6FirVv6hknNyhPrZKzoVez/rvpqPoVVMYJAjdPf6+SZk/B/XZOadUqbMubW7sdPeGVI9Ns9Gf1MTU0uVFqSd9Y86JMh2EcY7Wvk=
 deploy:
   provider: heroku
-  HEROKU_API_KEY:
-    secure: HrBmRUNdUwlV3Siylomhqb2/zwPdfFeYV2HRSjkZoiyh9tB8AWUM9Ml0vfUm8U1T6+Em0JyW6FirVv6hknNyhPrZKzoVez/rvpqPoVVMYJAjdPf6+SZk/B/XZOadUqbMubW7sdPeGVI9Ns9Gf1MTU0uVFqSd9Y86JMh2EcY7Wvk=
+    #secure: HrBmRUNdUwlV3Siylomhqb2/zwPdfFeYV2HRSjkZoiyh9tB8AWUM9Ml0vfUm8U1T6+Em0JyW6FirVv6hknNyhPrZKzoVez/rvpqPoVVMYJAjdPf6+SZk/B/XZOadUqbMubW7sdPeGVI9Ns9Gf1MTU0uVFqSd9Y86JMh2EcY7Wvk=
   app: my-webapp-template
   on:
     repo: fjab76/herokuWebApp
